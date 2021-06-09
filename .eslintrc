@@ -29,6 +29,11 @@
       "import/prefer-default-export": "off",
       "no-param-reassign": ["error", {
         "props": false
-      }]
+      }],
+      "linebreak-style": ["error", "windows"],
+      "class-methods-use-this": "off",
+      "comma-dangle": "off",
+      "@typescript-eslint/comma-dangle": ["off"],
+      "object-curly-newline": "off"
     }
 }
