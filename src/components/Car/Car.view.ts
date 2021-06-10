@@ -9,16 +9,16 @@ export abstract class CarView {
     const { name, color } = car;
 
     return `
-      <div class="app-car-item">
-        <h3>${name}</h3>
-        <button class="app-car-item__update-button">Update</button>
-        <button class="app-car-item__delete-button">Delete</button>
+      <h3>${name}</h3>
+      <button class="app-car-item__update-button">Update</button>
+      <button class="app-car-item__delete-button">Delete</button>
+      <button class="app-car-item__start-button">Start</button>
+      <button class="app-car-item__stop-button">Stop</button>
+      <div class="app-car-item"> 
         <svg
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
-          x="0px"
-          y="0px"
           viewBox="0 0 20.07 20.07"
           style="enable-background: new 0 0 20.07 20.07"
           xml:space="preserve"
